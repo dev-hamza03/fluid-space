@@ -50,4 +50,12 @@ main .box-5 {
   background-color: cyan;
   grid-area: box-5;
   background-image: url(assets/images/box-5-img.avif);
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: "box-1" "box-2" "box-3" "box-4" "box-5";
+  }
 }/*# sourceMappingURL=style.css.map */
